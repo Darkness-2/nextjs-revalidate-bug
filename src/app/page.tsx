@@ -13,10 +13,14 @@ export default async function Home() {
     <main>
       <h1>Hello, here is a small recreation of the revalidate bug</h1>
       <p>
-        Github repo: <Link href="">nextjs-revalidate-bug</Link>
+        Github repo:{" "}
+        <Link href="https://github.com/Darkness-2/nextjs-revalidate-bug">
+          nextjs-revalidate-bug
+        </Link>
       </p>
       <p>
-        Deployed on Vercel: <Link href="">here</Link>
+        Deployed on Vercel:{" "}
+        <Link href="https://nextjs-revalidate-bug.vercel.app/">here</Link>
       </p>
 
       <p>Time from server: {time}</p>
